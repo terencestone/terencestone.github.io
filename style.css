@@ -54,9 +54,6 @@ footer {
 }
 
 @media only screen and (max-width: 500px) {
-    #header {
-      background-image: none;
-    }
     #image img {
       display: none;
     }
