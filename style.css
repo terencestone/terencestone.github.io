@@ -37,12 +37,10 @@ a {
 }
 
 #header {
-  background-image: url("USlogo.jpg");
+  background-image: url("LittleBuddha.jpg");
+  height: 12em;
+  max-width: 640px;
   
-}
-
-#h1 {
-  margin-left: 100px
 }
 
 footer {
@@ -56,5 +54,8 @@ footer {
 @media only screen and (max-width: 500px) {
     #image img {
       display: none;
+    }
+    #header {
+      background-size: contain;
     }
   }
