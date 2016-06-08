@@ -2,6 +2,7 @@
   position: relative;
   margin: auto;
   max-width: 800px;
+  min-width: 100px;
 
 }
 
@@ -35,6 +36,15 @@ a {
   color: #00cc99;
 }
 
+#header {
+  background-image: url("USlogo.png");
+  height: 10em;
+}
+
+#h1 {
+  margin-left: 100px
+}
+
 footer {
   position: absolute;
   right: 0;
@@ -43,4 +53,11 @@ footer {
   text-align: center;
 }
 
-}
+@media only screen and (max-width: 500px) {
+    #header {
+      background-image: none;
+    }
+    #image img {
+      display: none;
+    }
+  }
